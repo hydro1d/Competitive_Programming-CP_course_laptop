@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -15,3 +14,7 @@ int main() {
 
     return 0;
 }
+// //In each iteration, we swap the characters at indices 2*i-2 and 2*i-1.
+// When i = 1, we swap the characters at indices 0 and 1.
+// When i = 2, we swap the characters at indices 2 and 3.
+// And so on.
